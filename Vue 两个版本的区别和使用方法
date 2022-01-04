@@ -1,0 +1,14 @@
+VUE两个版本的区别和使用方法
+
+1.两个版本对应的文件名
+完整版：vue.js ，有compiler
+非完整版（运行时版本）：vue.runtime.js ，无compiler
+区别：完整版自己的有compiler把h标签装换成h函数但是代码文件体积会相应的大30%保证了开发体验
+      非完整版则是开发者既可以直接写h标签 配合vue-loader和vue文件转换成h函数。开发用户两者兼顾
+         
+2.template和render怎么使用
+template：使用的是vue完整版 ，把视图（view）写在template选项里面
+render：使用的是非完整版，把视图写在render函数里面，用h来创建标签
+
+3.codesandbox.io的使用（在线编辑器）
+打开codesandbox.io官网，选择vue框架，写完的代码后，点击左上角的保存的或者保存zip文件即可。
