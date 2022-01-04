@@ -11,4 +11,4 @@ template：使用的是vue完整版 ，把视图（view）写在template选项�
 render：使用的是非完整版，把视图写在render函数里面，用h来创建标签
 
 3.codesandbox.io的使用（在线编辑器）
-打开codesandbox.io官网，选择vue框架，写完的代码后，点击左上角的保存的或者保存zip文件即可。
+打开codesandbox.io官网，选择vue框架，写完代码后，点击左上角的保存的或者保存zip文件即可。
